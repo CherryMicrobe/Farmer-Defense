@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Farmer Defense"
+run/main_scene="uid://dxs71o4swrjee"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
