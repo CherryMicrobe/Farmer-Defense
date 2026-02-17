@@ -1,3 +1,14 @@
 [gd_scene format=3 uid="uid://dxs71o4swrjee"]
 
+[ext_resource type="Texture2D" uid="uid://begq50f6xbkft" path="res://icon.svg" id="1_bmhak"]
+
 [node name="TopScene" type="Node2D" unique_id=428665191]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1568322022]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.264375, 0.47, 0.1175, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=559594464]
+position = Vector2(354, 317)
+texture = ExtResource("1_bmhak")
