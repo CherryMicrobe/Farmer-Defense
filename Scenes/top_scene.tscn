@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dxs71o4swrjee"]
 
 [ext_resource type="PackedScene" uid="uid://bfdej6w2mxgm1" path="res://Scenes/Enemy.tscn" id="1_bmhak"]
+[ext_resource type="Script" uid="uid://bg58ool5h3nct" path="res://Scripts/linecalc.gd" id="2_odxt6"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_odxt6"]
 load_path = "res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"
@@ -35,3 +36,13 @@ rotation = -0.10203352
 position = Vector2(346.09985, 470.22607)
 rotation = -0.47514135
 progress = 350.88
+
+[node name="Line2D" type="Line2D" parent="." unique_id=1813208334]
+width = 25.0
+default_color = Color(0.24, 0.12744, 0.07919999, 1)
+script = ExtResource("2_odxt6")
+
+[node name="Line2D" type="Line2D" parent="Line2D" unique_id=216874512]
+points = PackedVector2Array(-100, 486, 0, 486, 131, 486, 163, 490, 186, 514, 198, 551, 214, 583, 245, 602, 282, 609, 415, 609, 445, 597, 471, 576, 487, 545, 487, 428, 468, 398, 446, 384, 411, 379, 383, 393, 359, 418, 336, 442, 314, 456, 257, 456, 233, 447, 212, 426, 203, 395, 203, 297, 201, 266, 186, 247, 162, 244, 98, 244, 74, 236, 61, 211, 59, 181, 61, 95, 77, 70, 99, 57, 125, 47, 149, 50, 167, 58, 264, 116, 289, 132, 304, 149, 312, 166, 315, 186, 318, 207, 318, 268, 320, 289, 328, 305, 349, 310, 436, 310, 459, 303, 475, 282, 480, 252, 480, 226, 480, 186, 480, 155, 486, 136, 500, 126, 520, 123, 597, 123)
+width = 25.0
+default_color = Color(0.24, 0.12744, 0.07919999, 1)
